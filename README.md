@@ -8,7 +8,7 @@ This repository contains my research notes, controller design methods, simulatio
 
 ## Topics
 
-- [Small Signal Modeling](01-Small-Signal-Modeling)
+- [Review of Bode plot](01-Small-Signal-Modeling)
 - PI Controller
 - Type II Compensation
 - Type III Compensation
