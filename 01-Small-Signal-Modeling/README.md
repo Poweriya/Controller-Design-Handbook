@@ -17,4 +17,4 @@ Small-signal modeling is the foundation of controller design.
 
 ## References
 
-(To be added)
+([Fundamentals of Power Electronics](https://fmipa.umri.ac.id/wp-content/uploads/2016/03/R._Erickson_Fundamentals_of_Power_Electronics_pBookZZ.org_.pdf))
