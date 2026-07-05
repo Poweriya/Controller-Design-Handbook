@@ -4,7 +4,8 @@
 ## Introduction
 ### What is bode plot:
 Bode plots are effectively log-log plots, which cause functions which vary as 𝑓^𝑛 to become linear plots.
-‖𝐺‖_𝑑𝐵=20 〖𝑙𝑜𝑔〗_10 (‖𝐺‖)
+
+‖𝐺‖_𝑑𝐵=20log_10(‖𝐺‖)
 
 
 Small-signal modeling is the foundation of controller design.
