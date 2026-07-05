@@ -1,4 +1,5 @@
-# Small Signal Modeling
+# Review of Bode plots
+
 
 ## Introduction
 
