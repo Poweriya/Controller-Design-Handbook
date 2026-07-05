@@ -2,6 +2,10 @@
 
 
 ## Introduction
+### What is bode plot:
+Bode plots are effectively log-log plots, which cause functions which vary as 𝑓^𝑛 to become linear plots.
+‖𝐺‖_𝑑𝐵=20 〖𝑙𝑜𝑔〗_10 (‖𝐺‖)
+
 
 Small-signal modeling is the foundation of controller design.
 
@@ -17,4 +21,4 @@ Small-signal modeling is the foundation of controller design.
 
 ## References
 
-([Fundamentals of Power Electronics](https://fmipa.umri.ac.id/wp-content/uploads/2016/03/R._Erickson_Fundamentals_of_Power_Electronics_pBookZZ.org_.pdf))
+[Fundamentals of Power Electronics](https://fmipa.umri.ac.id/wp-content/uploads/2016/03/R._Erickson_Fundamentals_of_Power_Electronics_pBookZZ.org_.pdf)
