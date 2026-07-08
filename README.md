@@ -12,7 +12,7 @@ flowchart LR
     D --> E["Controller Design Example<br/>for DC-DC Converters"]
     D --> F["Current Programmed<br/>Control"]
 ```
-
+![Controller Roadmap](images/controllerroadmap.svg)
 ---
 
 ## Topics
