@@ -2,7 +2,13 @@
 
 Welcome!
 
-This repository contains my research notes, controller design methods, simulations, and reports on power electronics.
+This repository contains my research notes, controller design, simulations, and reports on power electronics.
+> **Note**
+>
+> This handbook is intended for educational purposes. It does not claim to present new or original research. Its goal is to connect the theoretical concepts of controller design with practical engineering projects and real-world applications.
+>
+> To preserve the accuracy and original meaning of some concepts, definitions, or explanations, certain passages may be quoted directly from the referenced sources. All such sources are properly acknowledged in the corresponding sections.
+>
 
 ![Controller Roadmap](images/controllerroadmap.svg)
 ---
