@@ -14,7 +14,7 @@ Welcome to my handbook on controller design for power electronics.
 
 ## Learning Path
 
-1. 📈 [Review of Bode Plots](01-Revuew-of-Bode-Plots/)
+1. 📈 [Review of Bode Plots](01-Review-of-Bode-Plots/)
 2. 📊 [Analysis of Converter Transfer Functions](02-Transfer-Functions/)
 3. 📐 [Graphical Construction of Transfer Functions](03-Graphical-Construction/)
 4. 🎯 [Controller Design](04-Controller-Design/)
