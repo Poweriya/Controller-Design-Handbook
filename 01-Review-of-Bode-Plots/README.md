@@ -3,7 +3,8 @@
 
 ## Introduction
 ### What is bode plot:
-Bode plots are effectively log-log plots, which cause functions which vary as 𝑓^𝑛 to become linear plots.
+A Bode plot is a plot of the magnitude and phase of a transfer function or other complex-valued quantity, vs. frequency. Magnitude in decibels, and phase in degrees, are plotted vs. frequency, using semilogarithmic axes. The magnitude plot is effectively a log-log plot, since the magnitude is expressed in decibels and the frequency axis is logarithmic.
+
 
 $$
 \|G\|_{\mathrm{dB}} = 20\log_{10}\left(\|G\|\right)
