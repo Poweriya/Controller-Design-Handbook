@@ -4,6 +4,15 @@ Welcome!
 
 This repository contains my research notes, controller design methods, simulations, and reports on power electronics.
 
+```mermaid
+flowchart LR
+    A["Review of<br/>Bode Plots"] --> B["Analysis of Converter<br/>Transfer Functions"]
+    B --> C["Graphical Construction of<br/>Transfer Functions"]
+    C --> D["Controller Design"]
+    D --> E["Controller Design Example<br/>for Lighting Project"]
+    D --> F["Current Programmed<br/>Control"]
+```
+
 ---
 
 ## Topics
