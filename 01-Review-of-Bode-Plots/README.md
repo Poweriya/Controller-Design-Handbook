@@ -26,7 +26,7 @@ $$
 </p>
 ---
 
-###3Single Pole Response
+### 3Single Pole Response
 
 
 ---
