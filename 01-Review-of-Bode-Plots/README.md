@@ -11,7 +11,8 @@ $$
 \|G\|_{\mathrm{dB}} = 20\log_{10}\left(\|G\|\right)
 $$
 
-If $$\frac{f}{f_0}$$, the magnitude in decibels (dB) is given by:
+If $$G=\frac{f}{f_0}$$, the magnitude in decibels (dB) is given by:
+
 $$
 \
 |G|_{\mathrm{dB}}
@@ -19,6 +20,7 @@ $$
 =20n\log_{10}\left(\frac{f}{f_0}\right)
 \
 $$
+
 Small-signal modeling is the foundation of controller design.
 
 ---
