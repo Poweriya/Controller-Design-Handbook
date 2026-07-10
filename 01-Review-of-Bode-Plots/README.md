@@ -21,7 +21,7 @@ $$
 \
 $$
 
-![Image1](../images/Image1.png)
+<!-![Image1](../images/Image1.png)->
 <p align="center">
   <img src="../images/Image1.png" alt="Image1" width="700">
 </p>
