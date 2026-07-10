@@ -24,7 +24,11 @@ $$
 <p align="center">
   <img src="../images/Image1.png" alt="Image1" width="700">
 </p>
+---
+###3Single Pole Response
 
+
+---
 Small-signal modeling is the foundation of controller design.
 
 ---
