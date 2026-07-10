@@ -5,11 +5,19 @@
 ### What is bode plot:
 A Bode plot is a plot of the magnitude and phase of a transfer function or other complex-valued quantity, vs. frequency. Magnitude in decibels, and phase in degrees, are plotted vs. frequency, using semilogarithmic axes. The magnitude plot is effectively a log-log plot, since the magnitude is expressed in decibels and the frequency axis is logarithmic.
 
+The magnitude in decibels (dB) is calculated using the following formula:
 
 $$
 \|G\|_{\mathrm{dB}} = 20\log_{10}\left(\|G\|\right)
 $$
 
+If \frac{f}{f_0}, the magnitude in decibels (dB) is given by:
+
+\[
+|G|_{\mathrm{dB}}
+=20\log_{10}\left|\left(\frac{f}{f_0}\right)^n\right|
+=20n\log_{10}\left(\frac{f}{f_0}\right)
+\]
 
 Small-signal modeling is the foundation of controller design.
 
