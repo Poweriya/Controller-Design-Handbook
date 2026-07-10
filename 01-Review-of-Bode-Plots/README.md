@@ -21,7 +21,7 @@ $$
 \
 $$
 
-![Image1](Images/Image1.png)
+![Image1](images/Image1.png)
 
 Small-signal modeling is the foundation of controller design.
 
