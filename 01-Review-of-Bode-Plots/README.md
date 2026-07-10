@@ -21,9 +21,7 @@ $$
 \
 $$
 
-## Bode Plot
-
-![Bode Plot](Images/Image1.png)
+![Image1](Images/Image1.png)
 
 Small-signal modeling is the foundation of controller design.
 
