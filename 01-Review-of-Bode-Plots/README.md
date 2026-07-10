@@ -11,7 +11,7 @@ $$
 \|G\|_{\mathrm{dB}} = 20\log_{10}\left(\|G\|\right)
 $$
 
-If $$G=\frac{f}{f_0}$$, the magnitude in decibels (dB) is given by:
+If $$G=(\frac{f}{f_0})^n$$, the magnitude in decibels (dB) is given by:
 
 $$
 \
