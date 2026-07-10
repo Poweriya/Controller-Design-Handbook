@@ -2,9 +2,6 @@
 
 
 ## Introduction
-
----
-
 ### What is bode plot:
 A Bode plot is a plot of the magnitude and phase of a transfer function or other complex-valued quantity, vs. frequency. Magnitude in decibels, and phase in degrees, are plotted vs. frequency, using semilogarithmic axes. The magnitude plot is effectively a log-log plot, since the magnitude is expressed in decibels and the frequency axis is logarithmic.
 
@@ -27,8 +24,6 @@ $$
 <p align="center">
   <img src="../images/Image1.png" alt="Image1" width="700">
 </p>
-
----
 
 ### Single Pole Response
 
