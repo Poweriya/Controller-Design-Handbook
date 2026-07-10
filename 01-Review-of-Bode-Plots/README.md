@@ -22,7 +22,9 @@ $$
 $$
 
 ![Image1](../images/Image1.png)
-<img src="images/Image1.png" alt="Image1" width="200">
+<p align="center">
+  <img src="images/Image1.png" alt="Bode Plot" width="700">
+</p>
 
 Small-signal modeling is the foundation of controller design.
 
