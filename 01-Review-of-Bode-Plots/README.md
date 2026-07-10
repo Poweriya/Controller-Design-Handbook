@@ -21,6 +21,8 @@ $$
 \
 $$
 
+![Bode Plots](images/Image Jul 10, 2026.png)
+
 Small-signal modeling is the foundation of controller design.
 
 ---
