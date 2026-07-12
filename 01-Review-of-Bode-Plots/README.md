@@ -119,6 +119,12 @@ $$
 
 At the break frequencies,the actual phase deviates from the asymptotes by $\tan^{-1}(0.1) \approx 5.7^\circ$
 
+Based on the explanation above, the Bode plot for a real pole (a left-half-plane or negative pole) is illustrated in the picture below:
+
+<p align="center">
+  <img src="../images/Picture5.png" alt="Image1" width="500">
+</p>
+
 ---
 
 ## References
