@@ -69,6 +69,12 @@ $$
 \omega \gg \omega_0 \text{ and } f \gg f_0 \rightarrow \left(\frac{\omega}{\omega_0}\right) \gg 1 \rightarrow \|G(j\omega)\| \approx \frac{1}{\sqrt{\left(\frac{\omega}{\omega_0}\right)^2}} = \left(\frac{f}{f_0}\right)^{-1}
 $$
 
+Then the magnitude asymptotes is:
+<p align="center">
+  <img src="../images/Picture2.png" alt="Image1" width="300">
+</p>
+
+
 ---
 
 ## References
