@@ -29,6 +29,10 @@ $$
 ### Single Pole Response
 Consider the RC circuit below. As illustrated, the circuit consists of a series RC branch connected to a voltage source. The transfer function is determined by the voltage divider formula shown below:
 
+<p align="center">
+  <img src="../images/RC.png" alt="Image1" width="300">
+</p>
+
 ---
 
 ## References
