@@ -33,11 +33,15 @@ Consider the RC circuit below. As illustrated, the circuit consists of a series 
   <img src="../images/RC.png" alt="Image1" width="300">
 </p>
 
+$$
 H(s) = \frac{V_2(s)}{V_1(s)} = \frac{\frac{1}{sC}}{R + \frac{1}{sC}} = \frac{1}{sRC + 1}
+$$
 
 Then we have:
 
+$$
 H(s) = \frac{1}{1 + \frac{s}{\omega_0}} \quad \text{where} \quad \omega_0 = \frac{1}{RC}
+$$
 
 ---
 
