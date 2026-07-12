@@ -95,10 +95,13 @@ $$
 $$
 
 if: 
+
 $$
 G(j\omega) = \frac{1}{\left(1 + j \frac{\omega}{\omega_0}\right)} = \frac{1 - j \frac{\omega}{\omega_0}}{1 + \left(\frac{\omega}{\omega_0}\right)^2}
 $$
+
 Then: 
+
 $$
 \angle G(j\omega) = -\tan^{-1} \left( \frac{\omega}{\omega_0} \right)
 $$
