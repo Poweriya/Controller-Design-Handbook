@@ -112,9 +112,12 @@ We can estimate the phase of $G(j\omega)$ for very small and large frequencies, 
 </p>
 According to $\angle G(j\omega)$ equation, at corner frequency ($f=f_0$), the phase is $-45\degree$. For drawing a more accurated graph we need a third asymptote to approximate the phase. A simpler choice could be:
 
-$$f_a=\frac{f_0}{10} & f_b=10f_0$$
+$$
+f_a = \frac{f_0}{10}
+f_b = 10f_0
+$$
 
-At the break frequencies,the actual phase deviates from the asymptotes by $tan^-1(0.1)=5.7\degree$
+At the break frequencies,the actual phase deviates from the asymptotes by $\tan^{-1}(0.1) \approx 5.7^\circ$
 
 ---
 
