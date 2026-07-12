@@ -43,8 +43,24 @@ $$
 H(s) = \frac{1}{1 + \frac{s}{\omega_0}} \quad \text{where} \quad \omega_0 = \frac{1}{RC}
 $$
 
+Since $R$ and $C$ are real positive quantities, $\omega_0$ is also real and positive. The denominator of ebove Eq contains a root at $s = -\omega_0$, and hence $G(s)$ contains a real pole in the left half of the complex plane [1].  
+
+To find the magnitude and phase of the transfer function, we let $s = j\omega$, where $j$ is the square root of $-1$. We then find the magnitude and phase of the resulting complex-valued function. With $s = j\omega$, equation becomes[1]: 
+
+$$
+G(j\omega) = \frac{1}{\left(1 + j \frac{\omega}{\omega_0}\right)} = \frac{1 - j \frac{\omega}{\omega_0}}{1 + \left(\frac{\omega}{\omega_0}\right)^2}
+$$
+
+$$
+\|G(j\omega)\| = \sqrt{\left[\text{Re}\left(G(j\omega)\right)\right]^2 + \left[\text{Im}\left(G(j\omega)\right)\right]^2} = \frac{1}{\sqrt{1 + \left(\frac{\omega}{\omega_0}\right)^2}}
+$$
+
+$$
+\|G(j\omega)\|_{\text{dB}} = -20 \log_{10} \left(\sqrt{1 + \left(\frac{\omega}{\omega_0}\right)^2}\right) \text{ dB}
+$$
+
 ---
 
 ## References
 
-[Fundamentals of Power Electronics](https://fmipa.umri.ac.id/wp-content/uploads/2016/03/R._Erickson_Fundamentals_of_Power_Electronics_pBookZZ.org_.pdf)
+[1] [Fundamentals of Power Electronics](https://fmipa.umri.ac.id/wp-content/uploads/2016/03/R._Erickson_Fundamentals_of_Power_Electronics_pBookZZ.org_.pdf)
