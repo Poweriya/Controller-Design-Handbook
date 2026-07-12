@@ -118,6 +118,8 @@ According to $\angle G(j\omega)$ equation, at corner frequency $(f=f_0)$, the ph
 
 $$
 f_a = \frac{f_0}{10}
+$$
+$$
 f_b = 10f_0
 $$
 
