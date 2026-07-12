@@ -71,7 +71,7 @@ $$
 
 Then the magnitude asymptotes is:
 <p align="center">
-  <img src="../images/Picture2.png" alt="Image1" width="300">
+  <img src="../images/Picture2.png" alt="Image1" width="500">
 </p>
 
 
