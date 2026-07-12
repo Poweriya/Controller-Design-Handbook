@@ -90,6 +90,7 @@ at $f = 0.5f_0$ and $f = 2f_0$ : Similar arguments show that the exact curve lie
 </p>
 
 The phase of $G(j\omega_0)$ is:
+
 $$
 \angle G(j\omega) = \tan^{-1} \left( \frac{\text{Im} \{ G(j\omega) \}}{\text{Re} \{ G(j\omega) \}} \right)
 $$
