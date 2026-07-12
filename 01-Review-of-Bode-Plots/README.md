@@ -83,7 +83,7 @@ $$
 \end{cases}
 $$
 
-at $$f = 0.5f_0 & f=2f_0$$ : Similar arguments show that the exact curve lies 1dB below the asymptotes.
+at $f = 0.5f_0$ and $f = 2f_0$ : Similar arguments show that the exact curve lies 1dB below the asymptotes.
 
 
 ---
