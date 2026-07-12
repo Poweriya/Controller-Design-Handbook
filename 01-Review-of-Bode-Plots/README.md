@@ -74,6 +74,18 @@ Then the magnitude asymptotes is:
   <img src="../images/Picture2.png" alt="Image1" width="500">
 </p>
 
+<img width="338" height="70" alt="image" src="https://github.com/user-attachments/assets/b5a671ed-78ee-40a2-b032-97a805fb1ba3" />
+
+For evaluating exact magnitude we can use magnitude calculation in some point which are simple.
+$$
+\text{at } f = f_0 : \begin{cases} 
+|G(j\omega_0)| = \frac{1}{\sqrt{1 + \left(\frac{\omega_0}{\omega_0}\right)^2}} = \frac{1}{\sqrt{2}} \\[2ex]
+\|G(j\omega_0)\|_{\text{dB}} = -20 \log_{10} \left(\sqrt{1 + \left(\frac{\omega_0}{\omega_0}\right)^2}\right) \approx -3 \text{ dB} 
+\end{cases}
+$$
+
+at $$f=0.5 \times f_0   𝑎𝑛𝑑 $$2𝑓_0$$: Similar arguments show that the exact curve lies 1dB below the asymptotes.
+
 
 ---
 
