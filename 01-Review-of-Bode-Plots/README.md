@@ -106,6 +106,12 @@ $$
 \angle G(j\omega) = -\tan^{-1} \left( \frac{\omega}{\omega_0} \right)
 $$
 
+We can estimate the phase of $G(j\omega)$ for very small and large frequencies, as well as at $\omega_0$. The result is illustrated in below:
+<p align="center">
+  <img src="../images/Picture4.png" alt="Image1" width="500">
+</p>
+
+
 ---
 
 ## References
