@@ -85,6 +85,9 @@ $$
 
 at $f = 0.5f_0$ and $f = 2f_0$ : Similar arguments show that the exact curve lies 1dB below the asymptotes.
 
+<p align="center">
+  <img src="../images/Picture3.png" alt="Image1" width="500">
+</p>
 
 ---
 
