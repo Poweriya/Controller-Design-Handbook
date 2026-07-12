@@ -59,6 +59,16 @@ $$
 \|G(j\omega)\|_{\text{dB}} = -20 \log_{10} \left(\sqrt{1 + \left(\frac{\omega}{\omega_0}\right)^2}\right) \text{ dB}
 $$
 
+The best practice for drawing the magnitude Bode plot of $G$ is to determine the asymptotic behavior for large and small frequencies.
+
+$$
+\omega \ll \omega_0 \text{ and } f \ll f_0 \rightarrow \left(\frac{\omega}{\omega_0}\right) \ll 1 \rightarrow \|G(j\omega)\| \approx 1 \text{ or } 0\text{dB}
+$$
+
+$$
+\omega \gg \omega_0 \text{ and } f \gg f_0 \rightarrow \left(\frac{\omega}{\omega_0}\right) \gg 1 \rightarrow \|G(j\omega)\| \approx \frac{1}{\sqrt{\left(\frac{\omega}{\omega_0}\right)^2}} = \left(\frac{f}{f_0}\right)^{-1}
+$$
+
 ---
 
 ## References
