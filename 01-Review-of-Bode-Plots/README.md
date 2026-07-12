@@ -78,7 +78,7 @@ For evaluating exact magnitude we can use magnitude calculation in some point wh
 
 $$
 \text{at } f = f_0 : \begin{cases} 
-|G(j\omega_0)| = \frac{1}{\sqrt{1 + \left(\frac{\omega_0}{\omega_0}\right)^2}} = \frac{1}{\sqrt{2}} \\[2ex]
+|G(j\omega_0)| = \frac{1}{\sqrt{1 + \left(\frac{\omega_0}{\omega_0}\right)^2}} = \frac{1}{\sqrt{2}} \\
 \|G(j\omega_0)\|_{\text{dB}} = -20 \log_{10} \left(\sqrt{1 + \left(\frac{\omega_0}{\omega_0}\right)^2}\right) \approx -3 \text{ dB} 
 \end{cases}
 $$
