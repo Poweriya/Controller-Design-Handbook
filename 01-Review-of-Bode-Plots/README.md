@@ -139,6 +139,24 @@ Using the same approach, the magnitude and phase Bode plots for a real zero are 
   <img src="../images/Picture6.png" alt="Image1" width="500">
 </p>
 
+### Right half-plane zero
+
+<p align="center">
+  <img src="../images/Picture7.png" alt="Image1" width="500">
+</p>
+
+### Inverted pole
+
+<p align="center">
+  <img src="../images/Picture8.png" alt="Image1" width="500">
+</p>
+
+### Inverted zero
+
+<p align="center">
+  <img src="../images/Picture9.png" alt="Image1" width="500">
+</p>
+
 ---
 
 ## References
