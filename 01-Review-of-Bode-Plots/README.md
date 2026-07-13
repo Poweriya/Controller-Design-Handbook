@@ -165,7 +165,7 @@ $$
 G_3(\omega)=G_1(\omega)\,G_2(\omega)
 $$
 
-And: 
+#### And: 
 
 $$
 G_1(\omega)=R_1(\omega)e^{j\theta_1(\omega)}
@@ -179,13 +179,13 @@ $$
 G_3(\omega)=R_3(\omega)e^{j\theta_3(\omega)}
 $$
 
-If
+#### If:
 
 $$
 G_3(\omega)=G_1(\omega)\,G_2(\omega)
 $$
 
-Then:
+#### Then:
 
 $$
 G_3(\omega)=R_1(\omega)e^{j\theta_1(\omega)}
