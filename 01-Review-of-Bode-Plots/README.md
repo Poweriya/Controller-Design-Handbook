@@ -180,6 +180,7 @@ G_3(\omega)=R_3(\omega)e^{j\theta_3(\omega)}
 $$
 
 If
+
 $$
 G_3(\omega)=G_1(\omega)\,G_2(\omega)
 $$
