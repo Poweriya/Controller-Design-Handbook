@@ -1,4 +1,3 @@
-<img width="1565" height="70" alt="image" src="https://github.com/user-attachments/assets/ecf46274-d2c9-4b34-adb7-50b58ca453a5" /># Review of Bode plots
 
 
 ## Introduction
