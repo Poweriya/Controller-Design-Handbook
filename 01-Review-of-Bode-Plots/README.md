@@ -202,6 +202,157 @@ $$
 \left|R_3(\omega)\right|_{\mathrm{dB}}=\left|R_1(\omega)\right|_{\mathrm{dB}}+\left|R_2(\omega)\right|_{\mathrm{dB}}
 $$
 
+# Example: Constructing a Bode Plot
+
+Consider the following transfer function:
+
+$$
+G(s)=\frac{G_0}
+{\left(1+\dfrac{s}{\omega_1}\right)
+\left(1+\dfrac{s}{\omega_2}\right)}
+$$
+
+where
+
+$$
+G_0=40 \qquad (32~\mathrm{dB})
+$$
+
+$$
+f_1=\frac{\omega_1}{2\pi}=100~\mathrm{Hz}
+$$
+
+$$
+f_2=\frac{\omega_2}{2\pi}=2~\mathrm{kHz}
+$$
+
+This transfer function consists of one constant gain and two first-order poles. The Bode plot can be constructed by analyzing the contribution of each term separately and then adding their effects together.
+
+---
+
+## Step 1. Constant Gain
+
+The constant gain affects only the magnitude response.
+
+Its magnitude in decibels is
+
+$$
+20\log_{10}(40)=32~\mathrm{dB}.
+$$
+
+Therefore,
+
+- Magnitude = **32 dB**
+- Phase = **0°**
+
+The gain contributes a horizontal line in the magnitude plot and does not change the phase.
+
+---
+
+## Step 2. First Pole
+
+The first pole is located at
+
+$$
+f_1=100~\mathrm{Hz}.
+$$
+
+Its contribution is
+
+### Magnitude
+
+- 0 dB below 100 Hz
+- −20 dB/decade above 100 Hz
+
+### Phase
+
+- Approximately 0° below 10 Hz
+- Decreases gradually between 10 Hz and 1 kHz
+- Approaches −90° above 1 kHz
+
+---
+
+## Step 3. Second Pole
+
+The second pole is located at
+
+$$
+f_2=2~\mathrm{kHz}.
+$$
+
+Its contribution is
+
+### Magnitude
+
+- 0 dB below 2 kHz
+- −20 dB/decade above 2 kHz
+
+### Phase
+
+- Approximately 0° below 200 Hz
+- Decreases gradually between 200 Hz and 20 kHz
+- Approaches −90° above 20 kHz
+
+---
+
+## Step 4. Construct the Magnitude Plot
+
+The overall magnitude is obtained by adding the magnitude (in dB) of all individual terms.
+
+| Frequency Range | Composite Slope |
+| :-------------- | --------------: |
+| $f<100$ Hz | 0 dB/decade |
+| $100~\mathrm{Hz}<f<2~\mathrm{kHz}$ | −20 dB/decade |
+| $f>2~\mathrm{kHz}$ | −40 dB/decade |
+
+Therefore,
+
+- Below **100 Hz**, the magnitude remains at **32 dB**.
+- At **100 Hz**, the first pole changes the slope to **−20 dB/decade**.
+- At **2 kHz**, the second pole changes the slope to **−40 dB/decade**.
+
+---
+
+## Step 5. Construct the Phase Plot
+
+The total phase is obtained by adding the phase contribution of each pole.
+
+| Frequency Range | Total Phase |
+| :-------------- | ----------: |
+| $f<10$ Hz | $0^\circ$ |
+| $10~\mathrm{Hz}<f<200~\mathrm{Hz}$ | First pole begins decreasing |
+| $200~\mathrm{Hz}<f<1~\mathrm{kHz}$ | Both poles contribute |
+| $1~\mathrm{kHz}<f<20~\mathrm{kHz}$ | First pole ≈ $-90^\circ$, second pole decreasing |
+| $f>20~\mathrm{kHz}$ | $-180^\circ$ |
+
+At high frequencies,
+
+$$
+\phi_{\mathrm{total}}
+=
+-90^\circ
++
+(-90^\circ)
+=
+-180^\circ.
+$$
+
+---
+
+## Summary
+
+The Bode plot of a transfer function is constructed by decomposing the transfer function into simple gain, pole, and zero terms.
+
+- The **magnitude plot** is obtained by adding the magnitude of each term in **decibels (dB)**.
+- The **phase plot** is obtained by adding the phase contribution of each term.
+- Each first-order pole contributes a slope of **−20 dB/decade** to the magnitude plot after its corner frequency and introduces a total phase lag of **−90°**.
+
+This graphical approach greatly simplifies the frequency-domain analysis of complex transfer functions and forms the foundation of controller design in power electronics.
+
+<p align="center">
+  <img src="../images/Picture10.png" alt="Image1" width="500">
+</p>
+
 ---
 
 ## References
