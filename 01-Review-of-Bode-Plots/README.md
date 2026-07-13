@@ -10,7 +10,7 @@ $$
 \|G\|_{\mathrm{dB}} = 20\log_{10}\left(\|G\|\right)
 $$
 
-If $$G=(\frac{f}{f_0})^n$$, the magnitude in decibels (dB) is given by:
+If $G=(\frac{f}{f_0})^n$, the magnitude in decibels (dB) is given by:
 
 $$
 \
@@ -198,11 +198,7 @@ e^{j\left(\theta_1(\omega)+\theta_2(\omega)\right)}
 $$
 
 $$
-\left|R_3(\omega)\right|_{\mathrm{dB}}
-=
-\left|R_1(\omega)\right|_{\mathrm{dB}}
-+
-\left|R_2(\omega)\right|_{\mathrm{dB}}
+\left|R_3(\omega)\right|_{\mathrm{dB}}=\left|R_1(\omega)\right|_{\mathrm{dB}}+\left|R_2(\omega)\right|_{\mathrm{dB}}
 $$
 
 ---
