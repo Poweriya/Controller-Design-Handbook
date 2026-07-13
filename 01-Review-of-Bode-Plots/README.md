@@ -133,7 +133,7 @@ Based on the explanation above, the Bode plot for a real pole (a left-half-plane
 
 Using the same approach, the magnitude and phase Bode plots for a real zero are shown below:
 
-#####Real Zero (Left half-plane zero)
+### Real Zero (Left half-plane zero)
 
 <p align="center">
   <img src="../images/Picture6.png" alt="Image1" width="500">
