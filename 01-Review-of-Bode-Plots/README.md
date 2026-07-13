@@ -1,4 +1,4 @@
-# Review of Bode plots
+<img width="1565" height="70" alt="image" src="https://github.com/user-attachments/assets/ecf46274-d2c9-4b34-adb7-50b58ca453a5" /># Review of Bode plots
 
 
 ## Introduction
@@ -156,6 +156,55 @@ Using the same approach, the magnitude and phase Bode plots for a real zero are 
 <p align="center">
   <img src="../images/Picture9.png" alt="Image1" width="500">
 </p>
+
+## Review of combination
+The Bode diagram of a transfer function containing several pole, zero, and gain terms, can be constructed by simple addition. At any given frequency, the magnitude (in decibels) of the composite transfer function is equal to the sum of the decibel magnitudes of the individual terms. Likewise, at a given frequency the phase of the composite transfer function is equal to the sum of the phases of the individual terms.
+
+Suppose that we have constructed the Bode diagrams of two complex-values functions of frequency:
+
+$$
+G_3(\omega)=G_1(\omega)\,G_2(\omega)
+$$
+
+And: 
+
+$$
+G_1(\omega)=R_1(\omega)e^{j\theta_1(\omega)}
+$$
+
+$$
+G_2(\omega)=R_2(\omega)e^{j\theta_2(\omega)}
+$$
+
+$$
+G_3(\omega)=R_3(\omega)e^{j\theta_3(\omega)}
+$$
+
+If
+$$
+G_3(\omega)=G_1(\omega)\,G_2(\omega)
+$$
+
+Then:
+
+$$
+G_3(\omega)=R_1(\omega)e^{j\theta_1(\omega)}
+R_2(\omega)e^{j\theta_2(\omega)}
+$$
+
+$$
+G_3(\omega)=
+\left(R_1(\omega)R_2(\omega)\right)
+e^{j\left(\theta_1(\omega)+\theta_2(\omega)\right)}
+$$
+
+$$
+\left|R_3(\omega)\right|_{\mathrm{dB}}
+=
+\left|R_1(\omega)\right|_{\mathrm{dB}}
++
+\left|R_2(\omega)\right|_{\mathrm{dB}}
+$$
 
 ---
 
