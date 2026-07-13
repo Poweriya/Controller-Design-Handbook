@@ -328,13 +328,7 @@ The total phase is obtained by adding the phase contribution of each pole.
 At high frequencies,
 
 $$
-\phi_{\mathrm{total}}
-=
--90^\circ
-+
-(-90^\circ)
-=
--180^\circ.
+\phi_{\mathrm{total}}=-90^\circ+(-90^\circ)=-180^\circ.
 $$
 
 ---
