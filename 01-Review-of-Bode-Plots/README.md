@@ -349,22 +349,17 @@ This graphical approach greatly simplifies the frequency-domain analysis of comp
 
 ## Summary of Basic Bode Plot Building Blocks
 
-| Term | Transfer Function | Magnitude Effect | Phase Effect |
-| :--- | :--- | :---: | :---: |
-| Constant Gain | $K$ | $20\log_{10}(K)$ dB | $0^\circ$ (or $180^\circ$ if $K<0$) |
-| Real Pole | $\displaystyle \frac{1}{1+\frac{s}{\omega_p}}$ | −20 dB/decade | −90° |
-| Real Zero | $\displaystyle 1+\frac{s}{\omega_z}$ | +20 dB/decade | +90° |
-| Inverted Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade | +90° |
-| Inverted Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade | −90° |
-| RHP Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade | +90° |
-| RHP Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade | −90° |
+## Effect of Poles and Zeros on Bode Plot
 
-> **Note**
->
-> - A **real pole** decreases the magnitude slope by **20 dB/decade** and introduces a total phase lag of **90°**.
-> - A **real zero** increases the magnitude slope by **20 dB/decade** and introduces a total phase lead of **90°**.
-> - A **right half-plane (RHP) zero** has the same magnitude response as a real zero, but its phase decreases by **90°**, making it a **non-minimum-phase** element.
-> - Inverted poles and inverted zeros are less common in practical controller design but are useful for understanding unstable systems and sign inversions.
+The following table summarizes the asymptotic effects of different pole and zero locations on the magnitude and phase response of a transfer function.
+
+| Element | Transfer Function Term | Magnitude Effect | Phase Effect | Notes |
+|:---:|:---:|:---:|:---:|:---|
+| **Real Pole (LHP Pole)** | $\frac{1}{1+\frac{s}{\omega_p}}$ | Decreases with **-20 dB/decade** after $\omega_p$ | Adds **-90° phase lag** | Standard pole used in power converter dynamics. Reduces bandwidth and introduces delay. |
+| **Real Zero (LHP Zero)** | $1+\frac{s}{\omega_z}$ | Increases with **+20 dB/decade** after $\omega_z$ | Adds **+90° phase lead** | Commonly used in compensators to improve phase margin. |
+| **Right Half-Plane Zero (RHP Zero)** | $1-\frac{s}{\omega_z}$ | Increases with **+20 dB/decade** after $\omega_z$ | Adds **-90° phase lag** | Non-minimum phase behavior. Limits achievable control bandwidth (e.g., boost converter CCM). |
+| **Inverted Pole** | $\frac{1}{1-\frac{s}{\omega_p}}$ | Decreases with **-20 dB/decade** after $\omega_p$ | Adds **+90° phase lead** | Unstable pole located in the RHP. Rare in practical power converters. |
+| **Inverted Zero (RHP Zero in Denominator Form)** | $1-\frac{s}{\omega_z}$ | Increases with **+20 dB/decade** after $\omega_z$ | Adds **-90° phase lag** | Equivalent to RHP zero. Causes phase loss despite magnitude increase. |
 
 ---
 
