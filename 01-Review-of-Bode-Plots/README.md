@@ -352,11 +352,12 @@ This graphical approach greatly simplifies the frequency-domain analysis of comp
 | Term | Transfer Function | Magnitude Effect | Phase Effect |
 | :--- | :--- | :---: | :---: |
 | Constant Gain | $K$ | $20\log_{10}(K)$ dB | $0^\circ$ (or $180^\circ$ if $K<0$) |
-| Real Pole | $\displaystyle \frac{1}{1+\frac{s}{\omega_p}}$ | −20 dB/decade after $\omega_p$ | $-90^\circ$ |
-| Real Zero | $\displaystyle 1+\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $+90^\circ$ |
-| Right Half-Plane (RHP) Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $-90^\circ$ |
-| Inverted Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade after $\omega_p$ | $+90^\circ$ |
-| Inverted Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $-90^\circ$ |
+| Real Pole | $\displaystyle \frac{1}{1+\frac{s}{\omega_p}}$ | −20 dB/decade | −90° |
+| Real Zero | $\displaystyle 1+\frac{s}{\omega_z}$ | +20 dB/decade | +90° |
+| Inverted Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade | +90° |
+| Inverted Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade | −90° |
+| RHP Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade | +90° |
+| RHP Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade | −90° |
 
 > **Note**
 >
