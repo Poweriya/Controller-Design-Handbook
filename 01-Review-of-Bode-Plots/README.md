@@ -347,6 +347,24 @@ This graphical approach greatly simplifies the frequency-domain analysis of comp
   <img src="../images/Picture10.png" alt="Image1" width="500">
 </p>
 
+## Summary of Basic Bode Plot Building Blocks
+
+| Term | Transfer Function | Magnitude Effect | Phase Effect |
+| :--- | :--- | :---: | :---: |
+| Constant Gain | $K$ | $20\log_{10}(K)$ dB | $0^\circ$ (or $180^\circ$ if $K<0$) |
+| Real Pole | $\displaystyle \frac{1}{1+\frac{s}{\omega_p}}$ | −20 dB/decade after $\omega_p$ | $-90^\circ$ |
+| Real Zero | $\displaystyle 1+\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $+90^\circ$ |
+| Right Half-Plane (RHP) Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $-90^\circ$ |
+| Inverted Pole | $\displaystyle \frac{1}{1-\frac{s}{\omega_p}}$ | −20 dB/decade after $\omega_p$ | $+90^\circ$ |
+| Inverted Zero | $\displaystyle 1-\frac{s}{\omega_z}$ | +20 dB/decade after $\omega_z$ | $-90^\circ$ |
+
+> **Note**
+>
+> - A **real pole** decreases the magnitude slope by **20 dB/decade** and introduces a total phase lag of **90°**.
+> - A **real zero** increases the magnitude slope by **20 dB/decade** and introduces a total phase lead of **90°**.
+> - A **right half-plane (RHP) zero** has the same magnitude response as a real zero, but its phase decreases by **90°**, making it a **non-minimum-phase** element.
+> - Inverted poles and inverted zeros are less common in practical controller design but are useful for understanding unstable systems and sign inversions.
+
 ---
 
 ## References
