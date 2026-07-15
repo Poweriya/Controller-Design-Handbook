@@ -361,6 +361,24 @@ The following table summarizes the effect of basic pole and zero locations on th
 | **Inverted Pole** | $\frac{1}{1+\frac{\omega_0}{s}}$ | Before $\omega_0$: **+20 dB/decade**<br>After $\omega_0$: 0 dB/decade | Phase decreases from **+90° to 0°** | Equivalent to a zero at low frequency and a pole at high frequency. |
 | **Inverted Zero** | $1+\frac{\omega_0}{s}$ | Before $\omega_0$: **-20 dB/decade**<br>After $\omega_0$: 0 dB/decade | Phase increases from **-90° to 0°** | Equivalent to a pole at low frequency and a zero at high frequency. |
 
+## Quadratic Bode Response: Resonance
+
+<p align="center">
+  <img src="../images/Picture11.png" alt="Image1" width="500">
+</p>
+
+Consider the transfer function of the two pole transfer function in below picture. This low pass filter is part of a buck converter (Buck converter output filter). The transfer function of this circuit optain by dividing voltage:
+
+$$
+\[ G(s) = \frac{v_2(s)}{v_1(s)} = \frac{1}{1 + s \frac{L}{R} + s^2 LC} \]
+$$
+
+We can rewrite the trasfer function to standard form:
+
+$$
+\[ G(s) = \frac{1}{1 + a_1 s + a_2 s^2} \]
+$$
+
 ---
 
 ## References
