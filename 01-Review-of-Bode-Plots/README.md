@@ -422,8 +422,8 @@ $$
    Q = \frac{1}{2\zeta}    
 $$
 
-The parameter $  Q  $ is called the quality factor of the circuit. It is a measure of the dissipation (energy loss) in the system.
-A more general definition of $  Q  $, for sinusoidal excitation of a passive element or network, is:
+The parameter $Q$ is called the quality factor of the circuit. It is a measure of the dissipation (energy loss) in the system.
+A more general definition of $Q$, for sinusoidal excitation of a passive element or network, is:
 
 $$
    Q = 2\pi \frac{\text{peak stored energy}}{\text{energy dissipated per cycle}} 
