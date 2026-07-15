@@ -398,6 +398,60 @@ s_2 &= -\frac{a_1}{2a_2} \left[ 1 + \sqrt{1 - \frac{4a_2}{a_1^2}} \right]
 \end{align*}
 $$
 
+Each real pole shows a bode diagram and the composite bode plot can be drown as discribe in above context.
+
+The second way for constructing bode plote for a resonance circuit is manipolating transfer function to standard normalized form:
+
+$$
+G(s) = \frac{1}{1 + 2\zeta \frac{s}{\omega_0} + \left( \frac{s}{\omega_0} \right)^2}
+$$
+
+If the coefficients $  a_1  $ and $  a_2  $ are real and positive, then the parameters $  \zeta  $ and $  \omega_0  $ are also real and positive.
+The parameter $  \omega_0  $ represents the angular corner frequency, and we can define the corner frequency as $  f_0 = \frac{\omega_0}{2\pi}  $.
+
+($  \zeta  $) parameter is called the damping factor. It controls the shape of the transfer function near the corner frequency $  f = f_0  $.
+An alternative standard normalized form is:
+
+$$
+   G(s) = \frac{1}{1 + \frac{s}{Q \omega_0} + \left( \frac{s}{\omega_0} \right)^2}  
+$$
+
+where
+
+$$
+   Q = \frac{1}{2\zeta}    
+$$
+
+The parameter $  Q  $ is called the quality factor of the circuit. It is a measure of the dissipation (energy loss) in the system.
+A more general definition of $  Q  $, for sinusoidal excitation of a passive element or network, is:
+   Q = 2\pi \frac{\text{peak stored energy}}{\text{energy dissipated per cycle}} \tag{8.60}   
+For a second-order passive system, Eqs. (8.59) and (8.60) are equivalent. The $  Q  $-factor has a very simple interpretation in the magnitude Bode plots of second-order transfer functions.
+Analytical expressions for the parameters $  Q  $ and $  \omega_0  $ can be found by equating like powers of $  s  $ in the original transfer function (Eq. 8.52) and in the normalized form (Eq. 8.58). The results are:
+   f_0 = \frac{\omega_0}{2\pi} = \frac{1}{2\pi \sqrt{LC}} \tag{8.61}   
+$   Q = R \sqrt{\frac{C}{L}}   $
+
+Then the magnitude of G is:
+
+$$
+\ |G(j\omega)| = \frac{1}{\sqrt{ \left[1 - \left( \frac{\omega}{\omega_0} \right)^2 \right]^2 + \frac{1}{Q^2} \left( \frac{\omega}{\omega_0} \right)^2 }} \
+$$
+
+->
+
+$$
+\ |G| \to 1 \quad \text{for} \quad \omega \ll \omega_0 \
+$$
+
+$$
+\ |G| \to \left( \frac{f}{f_0} \right)^{-2} \quad \text{for} \quad \omega \gg \omega_0 \
+$$
+
+The Asymptotes of mentioned transfer function is drawn in below picture:
+
+<p align="center">
+  <img src="../images/Picture12.png" alt="Image1" width="250">
+</p>
+
 ---
 
 ## References
