@@ -459,7 +459,7 @@ $$
 The Asymptotes of mentioned transfer function is drawn in below picture:
 
 <p align="center">
-  <img src="../images/Picture12.png" alt="Image1" width="250">
+  <img src="../images/Picture12.png" alt="Image1" width="500">
 </p>
 
 ---
