@@ -429,14 +429,16 @@ $$
    Q = 2\pi \frac{\text{peak stored energy}}{\text{energy dissipated per cycle}} 
 $$
 
-For a second-order passive system, Eqs. (8.59) and (8.60) are equivalent. The $  Q  $-factor has a very simple interpretation in the magnitude Bode plots of second-order transfer functions.
-Analytical expressions for the parameters $  Q  $ and $  \omega_0  $ can be found by equating like powers of $  s  $ in the original transfer function (Eq. 8.52) and in the normalized form (Eq. 8.58). The results are:
+For a second-order passive system, Eqs. (8.59) and (8.60) are equivalent. The $Q$-factor has a very simple interpretation in the magnitude Bode plots of second-order transfer functions.
+Analytical expressions for the parameters $Q$ and $\omega_0$ can be found by equating like powers of $s$ in the original transfer function (Eq. 8.52) and in the normalized form (Eq. 8.58). The results are:
 
 $$
 f_0 = \frac{\omega_0}{2\pi} = \frac{1}{2\pi \sqrt{LC}}
 $$
 
-$   Q = R \sqrt{\frac{C}{L}}   $
+$$
+Q = R \sqrt{\frac{C}{L}}   
+$$
 
 Then the magnitude of **G** is:
 
