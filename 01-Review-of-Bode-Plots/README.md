@@ -364,7 +364,7 @@ The following table summarizes the effect of basic pole and zero locations on th
 ## Quadratic Bode Response: Resonance
 
 <p align="center">
-  <img src="../images/Picture11.png" alt="Image1" width="500">
+  <img src="../images/Picture11.png" alt="Image1" width="250">
 </p>
 
 Consider the transfer function of the two pole transfer function in below picture. This low pass filter is part of a buck converter (Buck converter output filter). The transfer function of this circuit optain by dividing voltage:
@@ -377,6 +377,25 @@ We can rewrite the trasfer function to standard form:
 
 $$
 \[ G(s) = \frac{1}{1 + a_1 s + a_2 s^2} \]
+$$
+
+Where: 
+
+$$ a_{1} = \frac{L}{R}$$
+
+$$ a_{2} = LC $$
+
+To draw the Bode plot of this transfer function, we can factor the denominator into its two roots:
+
+$$
+\ G(s) = \frac{1}{\left(1 - \frac{s}{s_1}\right)\left(1 - \frac{s}{s_2}\right)} \
+$$
+
+$$
+\begin{align*}
+s_1 &= -\frac{a_1}{2a_2} \left[ 1 - \sqrt{1 - \frac{4a_2}{a_1^2}} \right] \\
+s_2 &= -\frac{a_1}{2a_2} \left[ 1 + \sqrt{1 - \frac{4a_2}{a_1^2}} \right]
+\end{align*}
 $$
 
 ---
