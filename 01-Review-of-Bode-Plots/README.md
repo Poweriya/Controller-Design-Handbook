@@ -462,6 +462,25 @@ The Asymptotes of mentioned transfer function is drawn in below picture:
   <img src="../images/Picture12.png" alt="Image1" width="500">
 </p>
 
+For a more accurate drawing of the Bode plot, it is useful to calculate the exact magnitude at the corner frequency $f_0$.
+At $\omega =\omega_0$ (or $f = f_0$), the magnitude is exactly:
+
+$$
+\[ |G(j\omega_0)| = Q \]
+$$
+
+$$
+\text{In decibels:}
+$$
+
+$$
+\[ |G(j\omega_0)|_{\text{dB}} = Q_{\text{dB}} \]
+$$
+
+<p align="center">
+  <img src="../images/Picture13.png" alt="Image1" width="500">
+</p>
+
 ---
 
 ## References
