@@ -406,10 +406,10 @@ $$
 G(s) = \frac{1}{1 + 2\zeta \frac{s}{\omega_0} + \left( \frac{s}{\omega_0} \right)^2}
 $$
 
-If the coefficients $  a_1  $ and $  a_2  $ are real and positive, then the parameters $  \zeta  $ and $  \omega_0  $ are also real and positive.
-The parameter $  \omega_0  $ represents the angular corner frequency, and we can define the corner frequency as $  f_0 = \frac{\omega_0}{2\pi}  $.
+If the coefficients $a_1$ and $a_2$ are real and positive, then the parameters $\zeta$ and $\omega_0$ are also real and positive.
+The parameter $\omega_0$ represents the angular corner frequency, and we can define the corner frequency as $f_0 = \frac{\omega_0}{2\pi}$.
 
-($  \zeta  $) parameter is called the damping factor. It controls the shape of the transfer function near the corner frequency $  f = f_0  $.
+($\zeta$) parameter is called the damping factor. It controls the shape of the transfer function near the corner frequency $f = f_0$.
 An alternative standard normalized form is:
 
 $$
@@ -424,13 +424,21 @@ $$
 
 The parameter $  Q  $ is called the quality factor of the circuit. It is a measure of the dissipation (energy loss) in the system.
 A more general definition of $  Q  $, for sinusoidal excitation of a passive element or network, is:
-   Q = 2\pi \frac{\text{peak stored energy}}{\text{energy dissipated per cycle}} \tag{8.60}   
+
+$$
+   Q = 2\pi \frac{\text{peak stored energy}}{\text{energy dissipated per cycle}} 
+$$
+
 For a second-order passive system, Eqs. (8.59) and (8.60) are equivalent. The $  Q  $-factor has a very simple interpretation in the magnitude Bode plots of second-order transfer functions.
 Analytical expressions for the parameters $  Q  $ and $  \omega_0  $ can be found by equating like powers of $  s  $ in the original transfer function (Eq. 8.52) and in the normalized form (Eq. 8.58). The results are:
-   f_0 = \frac{\omega_0}{2\pi} = \frac{1}{2\pi \sqrt{LC}} \tag{8.61}   
+
+$$
+f_0 = \frac{\omega_0}{2\pi} = \frac{1}{2\pi \sqrt{LC}}
+$$
+
 $   Q = R \sqrt{\frac{C}{L}}   $
 
-Then the magnitude of G is:
+Then the magnitude of **G** is:
 
 $$
 \ |G(j\omega)| = \frac{1}{\sqrt{ \left[1 - \left( \frac{\omega}{\omega_0} \right)^2 \right]^2 + \frac{1}{Q^2} \left( \frac{\omega}{\omega_0} \right)^2 }} \
