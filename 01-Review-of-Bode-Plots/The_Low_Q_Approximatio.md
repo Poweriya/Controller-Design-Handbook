@@ -32,14 +32,24 @@ $$
 F(Q)=\frac{1}{2}\left(1+\sqrt{1-4Q^2}\right)
 $$
 
+Note that, when $Q \ll 0.5$, then $4Q^2 \ll 1$ and $F(Q)$ is approximately equal to 1. We then obtain
+
+$$
+\omega_2 \approx \frac{\omega_0}{Q} \quad \text{for } Q \ll \frac{1}{2}
+$$
+
 To derive a similar approximation for $\omega_1$, we can multiply and divide by $F(Q)$. Upon simplification of the numerator, we obtain
 
 $$
 \omega_1 = \frac{Q \omega_0}{F(Q)}
 $$
 
-Note that, when $Q \ll 0.5$, then $4Q^2 \ll 1$ and $F(Q)$ is approximately equal to 1. We then obtain
+Again, $( F(Q) \$ tends to 1 for small $( Q \$. Hence, $( \omega_1 \$ can be approximated as
 
 $$
-\omega_2 \approx \frac{\omega_0}{Q} \quad \text{for } Q \ll \frac{1}{2}
+\omega_1 \approx Q \omega_0 \quad \text{for } Q \ll \frac{1}{2}
 $$
+
+For $Q < 0.5$, the two poles at $\omega_0$ split into real poles. One real pole occurs at corner frequency $\omega_1 < \omega_0$, while the other occurs at corner frequency $\omega_2 > \omega_0$. The corner frequencies can be easily approximated.
+
+For the filter circuit, the parameters $Q$ and $\omega_0$ are defined accordingly. For the case when $Q \ll 0.5$, the following analytical expressions for the corner frequencies can be derived:
