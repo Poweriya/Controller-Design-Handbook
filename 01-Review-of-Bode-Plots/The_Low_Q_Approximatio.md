@@ -32,6 +32,12 @@ $$
 F(Q)=\frac{1}{2}\left(1+\sqrt{1-4Q^2}\right)
 $$
 
+To derive a similar approximation for $\omega_1$, we can multiply and divide by $F(Q)$. Upon simplification of the numerator, we obtain
+
+$$
+\omega_1 = \frac{Q \omega_0}{F(Q)}
+$$
+
 Note that, when $Q \ll 0.5$, then $4Q^2 \ll 1$ and $F(Q)$ is approximately equal to 1. We then obtain
 
 $$
