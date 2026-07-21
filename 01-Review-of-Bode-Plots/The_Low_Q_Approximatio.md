@@ -44,7 +44,7 @@ $$
 \omega_1 = \frac{Q \omega_0}{F(Q)}
 $$
 
-Again, $( F(Q) \$ tends to 1 for small $( Q \$. Hence, $( \omega_1 \$ can be approximated as
+Again, $F(Q)$ tends to 1 for small $Q$. Hence, $\omega_1\$ can be approximated as
 
 $$
 \omega_1 \approx Q \omega_0 \quad \text{for } Q \ll \frac{1}{2}
