@@ -19,3 +19,21 @@ $$
 \frac{1+\sqrt{1-4Q^2}}{2}
 \right)
 $$
+
+The corner frequency $\omega_2$ can be expressed:
+
+$$
+\omega_2=\frac{\omega_0}{Q} F(Q)
+$$
+
+Where $F_Q$ is:
+
+$$
+F(Q)=\frac{1}{2}\left(1+\sqrt{1-4Q^2}\right)
+$$
+
+Note that, when $Q \ll 0.5$, then $4Q^2 \ll 1$ and $F(Q)$ is approximately equal to 1. We then obtain
+
+$$
+\omega_2 \approx \frac{\omega_0}{Q} \quad \text{for } Q \ll \frac{1}{2}
+$$
