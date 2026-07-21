@@ -5,6 +5,10 @@ For quality factors less than or equal to 0.5, the denominator of the second-ord
 For $Q\leq0.5$, the real roots of the denominator polynomial are
 
 $$
+G(s) = \frac{1}{1 + \frac{s}{Q \omega_0} + \left( \frac{s}{\omega_0} \right)^2}
+$$
+
+$$
 \omega_1=
 \frac{\omega_0}{Q}
 \left(
@@ -53,3 +57,7 @@ $$
 For $Q < 0.5$, the two poles at $\omega_0$ split into real poles. One real pole occurs at corner frequency $\omega_1 < \omega_0$, while the other occurs at corner frequency $\omega_2 > \omega_0$. The corner frequencies can be easily approximated.
 
 For the filter circuit, the parameters $Q$ and $\omega_0$ are defined accordingly. For the case when $Q \ll 0.5$, the following analytical expressions for the corner frequencies can be derived:
+
+<p align="center">
+  <img src="../images/Picture14.png" alt="Image1" width="300">
+</p>
