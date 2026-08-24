@@ -16,4 +16,15 @@ $$
 \hat{i}_g(t) = D\hat{i}(t) + I\hat{d}(t)
 $$
 
-The converter contains two inputs, $\hat{d}(s)$ and $\hat{V}_{g}(d)$ 
+The converter contains two inputs, $\hat{d}(s)$ and $\hat{v}_{g}(d)$, hence, the ac output voltage variations can be expressed as the 
+superposition of terms arising from the two inputs:
+
+$$
+\hat{v}(s) = G_{vd}(s) \hat{d}(s) + G_{vg}(s) \hat{v}_g(s)
+$$
+
+The control-to-output and line-to-output transfer functions can be defined as:
+
+$$
+G_{vd}(s) = \left. \frac{\hat{v}(s)}{\hat{d}(s)} \right|_{\hat{v}_g(s) = 0} \quad \text{and} \quad G_{vg}(s) = \left. \frac{\hat{v}(s)}{\hat{v}_g(s)} \right|_{\hat{d}(s) = 0}
+$$
