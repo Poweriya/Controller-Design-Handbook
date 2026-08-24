@@ -1,4 +1,5 @@
 Small-signal ac equations of the buck-boost converter, derived as below:
+
 $$
 L \frac{d\hat{i}(t)}{dt} &= D\hat{v}_g(t) + D'\hat{v}(t) + (V_g - V)\hat{d}(t)
 $$
