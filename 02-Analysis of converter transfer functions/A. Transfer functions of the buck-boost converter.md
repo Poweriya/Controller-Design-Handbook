@@ -15,3 +15,5 @@ $$
 $$
 \hat{i}_g(t) = D\hat{i}(t) + I\hat{d}(t)
 $$
+
+The converter contains two inputs, $V\hat{i}(s)$ and $V\hat{i}(d)$ 
